@@ -1,0 +1,51 @@
+/* src/styles/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #155aa4; /* Blue color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form span {
+  color: red;
+}
