@@ -1,15 +1,19 @@
 // src/components/Resume.jsx
 import React from 'react';
+import resume from '../assets/CV.pdf'; 
 
 const Resume = () => (
-  <section>
+  <section className="content-section">
     <h2>Resume</h2>
-    <a href="path-to-resume.pdf" download>Download Resume</a>
+    <a href={resume} download>Download Resume</a>
     <h3>Proficiencies</h3>
     <ul>
-      <li>Proficiency 1</li>
-      <li>Proficiency 2</li>
-      <li>Proficiency 3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>CSS</li>
+      <li>HTML</li>
+
     </ul>
   </section>
 );

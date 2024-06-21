@@ -11,7 +11,7 @@ import './styles/App.css';
 
 const App = () => (
   <Router>
-    <div>
+    <div className="app-container">
       <Header />
       <main>
         <Routes>
